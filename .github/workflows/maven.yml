@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ "master" ]
 env:
-  DATABASE: mongodb://root:example@localhost:27017/league?authSource=admin
+  DATABASE: mongodb://root:example@localhost:27017/championship?authSource=admin
   REDIS: redis://localhost:6379/
 
 jobs:
